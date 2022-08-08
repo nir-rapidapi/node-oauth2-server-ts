@@ -6,42 +6,6 @@
     "oauth",
     "oauth2"
   ],
-  "contributors": [
-    {
-      "name": "Thom Seddon",
-      "email": "thom@seddonmedia.co.uk"
-    },
-    {
-      "name": "Lars F. Karlström",
-      "email": "lars@lfk.io"
-    },
-    {
-      "name": "Rui Marinho",
-      "email": "ruipmarinho@gmail.com"
-    },
-    {
-      "name": "Tiago Ribeiro",
-      "email": "tiago.ribeiro@gmail.com"
-    },
-    {
-      "name": "Michael Salinger",
-      "email": "mjsalinger@gmail.com"
-    },
-    {
-      "name": "Nuno Sousa"
-    },
-    {
-      "name": "Max Truxa"
-    },
-    {
-      "name": "Jonathon Hill",
-      "email": "jhill9693@gmail.com"
-    },
-    {
-      "name": "Marco Lüthy",
-      "email": "marco.luethy@gmail.com"
-    }
-  ],
   "main": "index.ts",
   "engines": {
     "node": ">=8.10"
@@ -60,8 +24,11 @@
     "test": "npx mocha 'test/**/*.spec.ts' --config 'test/.mocharc.jsonc'"
   },
   "repository": {
-    "url": "https://github.com/oauthjs/node-oauth2-server.git",
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/nir-rapidapi/node-oauth2-server-ts.git"
+  },
+    "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.7",
