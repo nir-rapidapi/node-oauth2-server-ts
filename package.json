@@ -1,5 +1,5 @@
 {
-  "name": "oauth2-server",
+  "name": "@nir-rapidapi/node-oauth2-server-ts",
   "description": "Complete, framework-agnostic, compliant and well tested module for implementing an OAuth2 Server in node.js",
   "version": "5.0.0-dev.0",
   "keywords": [
